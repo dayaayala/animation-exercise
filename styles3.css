@@ -1,0 +1,56 @@
+.backbutton{
+    display: flex; 
+    justify-content: center;
+    align-items: top;
+    padding: 10px 20px;
+    background-color: #ff1cd9; 
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    text-decoration: none; 
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease; 
+    z-index: 2;
+  
+  
+  }
+  .backbutton:hover{ 
+      background-color: #c46bff; /* Slightly darker on hover */
+      transform: translateY(2px); /* Slight lift effect */
+      color: #ffffff;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      z-index: 2;
+  }
+
+  .text{
+    font-size: 400px;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, #0008ff,  rgb(255, 33, 255)); 
+    background-size: 400% 100%;
+    /* 
+  /* 3. Clip the background to the text area */
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+  
+    /* 4. Make the text fill transparent to reveal the background */
+    -webkit-text-fill-color: transparent;
+    animation: color 3s linear infinite;
+    
+    
+}
+@keyframes color{
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+  
+  .
